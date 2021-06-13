@@ -9,18 +9,46 @@
 }
 
 .navbar__icons {
-  display: flex;
-  justify-content: space-between;
-  width: 10%;
-  height: 100%;
-  align-items: center;
-  border: 1px solid green;
+  font-size: 20px;
+  margin-left: 1%;
+  color: #B0B7C3;
+  cursor: pointer;
+}
+
+.navbar__text {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+  color: #435274;
+  cursor: default
 }
 
 .navbar button {
-
+  background: #00A5EA;
+  border-radius: 8px;
+  height: 50%;
+  width: 12%;
+  margin-left: 10%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.3 px;
+  line-height: 24px;
+  cursor: pointer;
 }
 
 .navbar__search {
-  
+  position: relative;
+  left: 8%;
+  right: 42.07%;
+  top: 1%;
+  background: #F5F8FB;
+  border-radius: 8px;
+  width: 500px;
+  height: 40px;
+  border: #00A5EA;
+  padding: 5px;
 }
