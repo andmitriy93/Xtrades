@@ -1,11 +1,12 @@
 import React from 'react';
+import './sidebar.css'
 
 class Sidebar extends React.Component {
 
 
   render () {
     return (
-      <div className='sidebar__element--modifier'>
+      <div className='sidebar'>
         <div className="sidebar__header">
           <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.6455 0.554027C11.4721 0.341985 11.6231 0.0239258 11.8972 0.0239258H18.0489C18.1445 0.0239258 18.2354 0.0660382 18.2971 0.139041L27.7728 11.3408C27.8752 11.4618 27.8752 11.6389 27.7728 11.7599L18.2971 22.9617C18.2354 23.0347 18.1445 23.0768 18.0489 23.0768H11.8972C11.6231 23.0768 11.4721 22.7588 11.6455 22.5467L20.4694 11.7558C20.5671 11.6362 20.5671 11.4645 20.4694 11.345L11.6455 0.554027Z" fill="white"/>
