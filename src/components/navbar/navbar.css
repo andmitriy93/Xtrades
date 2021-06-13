@@ -1,7 +1,5 @@
 .navbar {
-  /* width: 100%; */
   height: 100%;
-  border: 1px solid pink;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -31,7 +29,7 @@
   border-radius: 8px;
   height: 50%;
   width: 12%;
-  margin-left: 10%;
+  margin-left: 30%;
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -42,7 +40,7 @@
 
 .navbar__search {
   position: relative;
-  left: 8%;
+  left: 15%;
   right: 42.07%;
   top: 1%;
   background: #F5F8FB;
@@ -52,3 +50,11 @@
   border: #00A5EA;
   padding: 5px;
 }
+/* 
+.fas fa-bell, fa-comment-alt, fa-cog {
+  margin-left: 50%;
+} */
+
+/* .fa-bell {
+  margin-left: 20%;
+} */

@@ -1,5 +1,94 @@
 .sidebar {
   width: 100%;
-  border: 1px solid blue;
   height: 100vh;
+  background: linear-gradient(180deg, #113365 0%, #0C274F 50%);
+  color: #fff;
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  border: 1px white;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.sidebar__header--text {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.sidebar__links ul {
+  list-style-type: none;
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  padding-top: 50px;
+}
+
+.sidebar__links--item {
+  display: flex;
+  align-items: left;
+  height: 30%;
+  padding-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  left: -20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.sidebar-item__img {
+  margin-right: 10px;
+}
+
+
+.sidebar-item__notifications {
+  position: relative;
+  left: 100px;
+  width: 34px;
+  height: 20px;
+  font-size: 15px;
+  background: #596E8D;
+  border-radius: 100px;
+}
+
+.sidebar__membership {
+  position: relative;
+  left: 20px;
+  top: 10%;
+  background: rgba(245, 248, 251, 0.1);
+  height: 240px;
+  width: 240px;
+  border-radius: 20px;
+}
+
+.sidebar__membership--button {
+  position: relative;
+  top: 70%;
+  background: #00A5EA;
+  color: #fff;
+  border-radius: 8px;
+  width: 180px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+}
+
+.sidebar__footer {
+  position: relative;
+  top: 25%;
+  left: 10%;
+  width: 140px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
 }
