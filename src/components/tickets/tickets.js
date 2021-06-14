@@ -6,10 +6,12 @@ class Tickets extends React.Component {
     return (
       <div className='tickets'>
         <div className='tickets__header'>
-          <span className='tickets__header--title'>Trending tickers</span>
-          <div>
-            <span>Sort by:</span>
-            <select>
+          <select className='tickets__header--title'>
+            <option>Trending tickers</option>
+          </select>
+          <div className="tickets__header--options">
+            <span className="ticketsHeader__options--title">Sort by:</span>
+            <select className="tickets__header--dropdown">
               <option>This week</option>
               <option>This month</option>
               <option>This year</option>
@@ -185,7 +187,7 @@ class Tickets extends React.Component {
                 <span className="card__footer--alerts">
                   15 alerts
                 </span>
-                <span className="card_footer--bullish">
+                <span className="card__footer--bullish">
                   64% bullish
                 </span>
               </div>

@@ -3,8 +3,10 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  padding: 0px 20px;
-  border: 1px solid #00A5EA;
+  padding-right: 2.5%;
+  padding-left: 2.7%;
+  padding-bottom: .5%;
+  border: 1px solid rgba(60, 60, 67, 0.08);
 }
 
 .navbar__icons {

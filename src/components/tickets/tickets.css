@@ -1,13 +1,73 @@
 .tickets {
-  /* border: 1px solid red; */
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+}
+
+.tickets__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets__header--title {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #435274;
+  margin-left: 4%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+}
+
+.tickets__header--options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  background: #F5F8FB;
+  border-radius: 8px;
+  margin-right: 3%;
+  position: relative;
+  top: 3px;
+}
+
+.ticketsHeader__options--title {
+  border: none;
+  font-family: 'Dm Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #647189;
+  margin-right: 1%;
+}
+
+.tickets__header--dropdown {
+  border: none;
+  font-family: 'Dm Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #647189;
+  border-radius: 8px;
+  background: #F5F8FB;
 }
 
 .tickets__cards {
-  border: 1px solid red;
-  width: 1471px;
+  width: 94%;
   height: 230px;
   position: relative;
-  left: 70px;
+  left: 3%;
+  top: 4%;
   display: flex;
   overflow: hidden;
   border-radius: 10px;
@@ -33,7 +93,6 @@
   position: relative;
   top: 13%;
   left: 2%;
-  border: 1px solid pink;
 }
 
 .ticketsCards__container--header {
