@@ -8,6 +8,10 @@
   height: 230px;
   position: relative;
   left: 70px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #F5F8FB;
 }
 
 .ticketsCards__container {
@@ -17,6 +21,8 @@
   box-shadow: 0px 4px 16px rgba(117, 128, 146, 0.16);
   width: 290px;
   height: 170px;
+  border-radius: 10px;
+  margin-right: 24px;
 }
 
 .ticketsCards__container.apple{
@@ -29,10 +35,114 @@
   left: 2%;
   border: 1px solid pink;
 }
+
+.ticketsCards__container--header {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+}
+
+.cardContainer__header--img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  background: #F4F6FA;
+  border-radius: 10px;
+}
+
+.cardContainer__header--title {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 170px;
+  height: 40px;
+}
+
+.header__title--name1 {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #435274;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+}
+
+.header__title--name2 {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18.23px;
+  letter-spacing: -0.3px;
+  color: #A2B1C3;
+}
+
+
+.cardContainer__header--dots {
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  align-items: center;
+  color: #C1C7D0;
+}
+
 .graph {
   position: relative;
   top: 30%;
-  left: 10%;
-  border: 1px solid greenyellow;
+  left: 2%;
+  height: 39px;
+}
+.graph-path {
+  fill: none;
+  stroke-width: 2px;
+  stroke: #40c8b7;
+  filter: drop-shadow( 0px 5px 0.4px rgba(0, 0, 0, .2));
 }
 
+
+.ticketsCards__container--footer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 20%;
+}
+
+.card__footer--alerts {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #435274;
+  margin-right: 20%;
+}
+
+.card__footer--bullish {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: #40C8B7;
+}
+
+.card__footer--bullish.spy {
+  color: #FD5B5D;
+}
+
+.card__footer--bullish-text {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18.23px;
+  letter-spacing: -0.3px;
+  color: #A2B1C3;
+}
