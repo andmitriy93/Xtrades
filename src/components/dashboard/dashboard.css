@@ -9,6 +9,7 @@
     'sidebar navbar navbar'
     'sidebar content content'
     'sidebar content content';
+  overflow: auto;
 }
 
 .sidebar {
