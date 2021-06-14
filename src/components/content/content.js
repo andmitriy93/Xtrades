@@ -1,5 +1,6 @@
 import React from 'react'
 import Tickets from '../tickets/tickets'
+import RecentActivity from '../recentActivity/recentActivity'
 import './content.css'
 
 class Content extends React.Component {
@@ -8,7 +9,7 @@ class Content extends React.Component {
     return (
       <div className="content">
         <Tickets />
-        <h2>content</h2>
+        <RecentActivity />
       </div>
     )
   }

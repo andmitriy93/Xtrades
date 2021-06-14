@@ -1,5 +1,13 @@
 .content {
-  border: 2px solid red;
-  /* width: 100%; */
-  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'tickets tickets tickets'
+    'recentActivity recentActivity recentActivity'
+    'recentActivity recentActivity recentActivity';
 }
+
+.tickets { grid-area: tickets; }
+.recentActivity {grid-area: recentActivity;}

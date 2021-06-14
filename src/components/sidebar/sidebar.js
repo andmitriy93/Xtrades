@@ -25,20 +25,23 @@ class Sidebar extends React.Component {
         <div className="sidebar__links">
           <ul>
             <li className="sidebar__links--item">
-              <svg className="sidebar-item__img" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 5.5C8.51878 5.5 9.75 4.26878 9.75 2.75C9.75 1.23122 8.51878 0 7 0C5.48122 0 4.25 1.23122 4.25 2.75C4.25 4.26878 5.48122 5.5 7 5.5Z" fill="url(#paint0_linear)"/>
-                <path d="M13 9.07601C13.0013 8.717 12.8992 8.36521 12.7057 8.06278L12.2845 8.33222L12.7057 8.06278C12.512 7.76001 12.2351 7.51956 11.9081 7.37031L11.9081 7.37023L11.9 7.36668C10.3548 6.69433 8.68496 6.35638 7.00001 6.375C5.31507 6.35638 3.64522 6.69433 2.10007 7.36668L2.10004 7.36661L2.09194 7.37031C1.76497 7.51956 1.48803 7.76001 1.29434 8.06278C1.10087 8.36522 0.998682 8.71702 1.00001 9.07603M13 9.07601C13 9.0764 13 9.0768 13 9.07719L12.5 9.07503H13V9.07601ZM13 9.07601V11V11.5H12.5H1.50001H1.00001V11V9.07603M1.00001 9.07603C1.00001 9.07642 1.00002 9.07681 1.00002 9.07719L1.50001 9.07503H1.00001V9.07603Z" fill="url(#paint1_linear)" stroke="#2C4F78"/>
+              <svg className="sidebar-item__img" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="8" cy="8" r="7.5" stroke="#01ECB3"/>
+                <circle cx="8" cy="8" r="5.5" stroke="#01ECB3"/>
+                <path d="M8 10.5C9.51878 10.5 10.75 9.26878 10.75 7.75C10.75 6.23122 9.51878 5 8 5C6.48122 5 5.25 6.23122 5.25 7.75C5.25 9.26878 6.48122 10.5 8 10.5Z" fill="url(#paint0_linear)"/>
+                <path d="M14 14.076C14.0013 13.717 13.8992 13.3652 13.7057 13.0628L13.2845 13.3322L13.7057 13.0628C13.512 12.76 13.2351 12.5196 12.9081 12.3703L12.9081 12.3702L12.9 12.3667C11.3548 11.6943 9.68496 11.3564 8.00001 11.375C6.31507 11.3564 4.64522 11.6943 3.10007 12.3667L3.10004 12.3666L3.09194 12.3703C2.76497 12.5196 2.48803 12.76 2.29434 13.0628C2.10087 13.3652 1.99868 13.717 2.00001 14.076M14 14.076C14 14.0764 14 14.0768 14 14.0772L13.5 14.075H14V14.076ZM14 14.076V16V16.5H13.5H2.50001H2.00001V16V14.076M2.00001 14.076C2.00001 14.0764 2.00002 14.0768 2.00002 14.0772L2.50001 14.075H2.00001V14.076Z" fill="url(#paint1_linear)" stroke="#2C4F78"/>
                 <defs>
-                <linearGradient id="paint0_linear" x1="9.14143" y1="0.626599" x2="4.6508" y2="5.18685" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#00F595"/>
-                <stop offset="1" stopColor="#00D5FB"/>
+                <linearGradient id="paint0_linear" x1="10.1414" y1="5.6266" x2="5.6508" y2="10.1869" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00F595"/>
+                <stop offset="1" stop-color="#00D5FB"/>
                 </linearGradient>
-                <linearGradient id="paint1_linear" x1="11.2829" y1="7.3443" x2="9.093" y2="13.2735" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#00F595"/>
-                <stop offset="1" stopColor="#00D5FB"/>
+                <linearGradient id="paint1_linear" x1="12.2829" y1="12.3443" x2="10.093" y2="18.2735" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00F595"/>
+                <stop offset="1" stop-color="#00D5FB"/>
                 </linearGradient>
                 </defs>
               </svg>
+
                 <span className="sidebar-item__title">Alerts</span>
                 <span className="sidebar-item__notifications">32</span>
             </li>
