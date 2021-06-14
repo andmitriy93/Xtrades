@@ -155,7 +155,7 @@ class Tickets extends React.Component {
                   17 alerts
                 </span>
                 <span className="card__footer--bullish">
-                  55% bullish
+                  55% <span className="card__footer--bullish-text">bullish</span>
                 </span>
               </div>
           </div>
@@ -188,7 +188,7 @@ class Tickets extends React.Component {
                   15 alerts
                 </span>
                 <span className="card__footer--bullish">
-                  64% bullish
+                  64% <span className="card__footer--bullish-text">bullish</span>
                 </span>
               </div>
           </div>
