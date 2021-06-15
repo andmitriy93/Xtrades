@@ -1,4 +1,5 @@
 import React from 'react'
+import {ReactComponent as ReactLogo} from '../../img/avatar.svg'
 import './navbar.css'
 
 class Navbar extends React.Component {
@@ -10,12 +11,11 @@ class Navbar extends React.Component {
 
         <button>+ Invite a friend</button>
 
-        {/* <div className="navbar__icons"> */}
           <i className="navbar__icons fas fa-bell"></i>
           <i className="navbar__icons fas fa-comment-alt"></i>
           <i className="navbar__icons fas fa-cog"></i>
-          <i className="navbar__icons fas fa-user"></i>
-        {/* </div> */}
+          <ReactLogo />
+
       </div>
     )
   }

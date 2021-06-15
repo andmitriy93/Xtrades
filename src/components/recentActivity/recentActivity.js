@@ -621,15 +621,7 @@ class RecentActivity extends React.Component {
             </td>
           </tr>
 
-
-
-
-
-
-
-
         </table>
-
       </div>
     )
   }

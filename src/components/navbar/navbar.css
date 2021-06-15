@@ -55,13 +55,6 @@
   width: 500px;
   height: 40px;
   border: #00A5EA;
-  padding: 5px;
+  padding-left: 2%;
+  color: #A2B1C3;
 }
-/* 
-.fas fa-bell, fa-comment-alt, fa-cog {
-  margin-left: 50%;
-} */
-
-/* .fa-bell {
-  margin-left: 20%;
-} */
