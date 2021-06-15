@@ -77,7 +77,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoApple />
+                <div className="table__logo">
+                  <ReactLogoApple />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Bought AAPL shares</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -87,9 +89,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Momentum</span>
-                <span className="table__stategy--type2">Lotto</span>
-                <span className="table__stategy--type3">+7</span>
+                <span className="table__stategy--type">Momentum</span>
+                <span className="table__stategy--type">Lotto</span>
+                <span className="table__stategy--type white num">+7</span>
               </div>
             </td>
 
@@ -101,7 +103,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit up">
                 <span className="table__profit--grade">Up 4%</span>
               </div>
             </td>
@@ -109,7 +111,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">
@@ -124,7 +126,7 @@ class RecentActivity extends React.Component {
             </td>
           </tr>
 {/* ------------------------SECOND ROW------------------------- */}
-          <tr>
+          <tr className="recentActivity__table--row active">
             <td>
               <div className="table__trader">
                 <ReactLogoKevin />
@@ -137,7 +139,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoSP />
+                <div className="table__logo">
+                  <ReactLogoSP />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Sold SPY put 08/18/21</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -147,22 +151,22 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
-                <span className="table__stategy--type2">Momentum</span>
-                <span className="table__stategy--type3">+2</span>
+                <span className="table__stategy--type white">Day</span>
+                <span className="table__stategy--type white">Momentum</span>
+                <span className="table__stategy--type num">+2</span>
               </div>
             </td>
 
             <td>
               <div className="table__status">
-                <span className="table__status--open">Opened 08//21/21</span>
+                <span className="table__status--open">Opened 08/21/21</span>
                 <span className="table__status--close">Closed 8:13 AM</span>
               </div>
             </td>
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit made">
                 <span className="table__profit--grade">Made 16%</span>
               </div>
             </td>
@@ -170,12 +174,12 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
-                  <span className="tableActions__like--count">37</span>
+                  <i className="tableActions__like--icon active  fas fa-thumbs-up"></i>
+                  <span className="tableActions__like--count active">37</span>
                 </div>
                 <div className="tableActions__bookmark">
-                  <i className="tableActions__bookamark-icon fas fa-bookmark"></i>
-                  <span className="tableActions__bookmark--count">7</span>
+                  <i className="tableActions__bookamark-icon active fas fa-bookmark"></i>
+                  <span className="tableActions__bookmark--count active">7</span>
                 </div>
                 <div className="tableActions__comments">
                   <i className="tableActions__comments-icon fas fa-comments"></i>
@@ -198,7 +202,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoTSLA />
+                <div className="table__logo">
+                  <ReactLogoTSLA />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Sold TSLA call 08/18/21</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -208,9 +214,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
-                <span className="table__stategy--type2">Lotto</span>
-                <span className="table__stategy--type3">+3</span>
+                <span className="table__stategy--type">Day</span>
+                <span className="table__stategy--type">Lotto</span>
+                <span className="table__stategy--type white num">+3</span>
               </div>
             </td>
 
@@ -222,7 +228,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit down">
                 <span className="table__profit--grade">Down 4%</span>
               </div>
             </td>
@@ -230,7 +236,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">
@@ -258,7 +264,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoTSLA />
+                <div className="table__logo">
+                  <ReactLogoTSLA />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Tesla iron condor 08/18/21</span>
                   <span className="trade__details--price">Creadit $35</span>
@@ -268,7 +276,7 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
+                <span className="table__stategy--type">Day</span>
               </div>
             </td>
 
@@ -280,7 +288,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit up">
                 <span className="table__profit--grade">Up 4%</span>
               </div>
             </td>
@@ -288,7 +296,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">
@@ -303,7 +311,7 @@ class RecentActivity extends React.Component {
             </td>
           </tr>
 {/* -------------------------------FIFTH ROW---------------------------- */}
-          <tr>
+          <tr className="recentActivity__table--row active">
             <td>
               <div className="table__trader">
                 <ReactLogoKevin />
@@ -316,7 +324,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoSP />
+                <div className="table__logo">
+                  <ReactLogoSP />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Sold SPY put 08/18/21</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -326,70 +336,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
-                <span className="table__stategy--type2">Vertical spread</span>
-                <span className="table__stategy--type3">+2</span>
-              </div>
-            </td>
-
-            <td>
-              <div className="table__status">
-                <span className="table__status--open">Opened Yesterday</span>
-                <span className="table__status--close">CLosed 8:13 AM</span>
-              </div>
-            </td>
-
-
-            <td>
-              <div className="table__profit">
-                <span className="table__profit--grade">Made 16%</span>
-              </div>
-            </td>
-
-            <td>
-              <div className="table__actions">
-                <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
-                  <span className="tableActions__like--count">37</span>
-                </div>
-                <div className="tableActions__bookmark">
-                  <i className="tableActions__bookamark-icon fas fa-bookmark"></i>
-                  <span className="tableActions__bookmark--count">7</span>
-                </div>
-                <div className="tableActions__comments">
-                  <i className="tableActions__comments-icon fas fa-comments"></i>
-                  <span className="tableActions__comments--count">37</span>
-                </div>
-              </div>
-            </td>
-          </tr>
-{/* ----------------------------------SIXTH ROW---------------------------- */}
-          <tr>
-            <td>
-              <div className="table__trader">
-                <ReactLogoCK2 />
-                <div className="table__trader--title">
-                  <span className="trader__title--name">CKadera</span>
-                  <span className="trader__title--email">@ckadera</span>
-                </div>
-              </div>
-            </td>
-
-            <td>
-              <div className="table__trade">
-                <ReactLogoTSLA />
-                <div className="table__trade--details">
-                  <span className="trade__details--status">Sold TSLA call 08/18/21</span>
-                  <span className="trade__details--price">@$210.22</span>
-                </div>
-              </div>
-            </td>
-
-            <td>
-              <div className="table__strategy">
-                <span className="table__stategy--type1">Long</span>
-                <span className="table__stategy--type2">Diagonal put</span>
-                <span className="table__stategy--type3">+7</span>
+                <span className="table__stategy--type white">Day</span>
+                <span className="table__stategy--type white">Vertical spread</span>
+                <span className="table__stategy--type num">+2</span>
               </div>
             </td>
 
@@ -402,7 +351,70 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit made">
+                <span className="table__profit--grade">Made 16%</span>
+              </div>
+            </td>
+
+            <td>
+              <div className="table__actions">
+                <div className="tableActions__like">
+                  <i className="tableActions__like--icon active fas fa-thumbs-up"></i>
+                  <span className="tableActions__like--count">37</span>
+                </div>
+                <div className="tableActions__bookmark">
+                  <i className="tableActions__bookamark-icon active fas fa-bookmark"></i>
+                  <span className="tableActions__bookmark--count">7</span>
+                </div>
+                <div className="tableActions__comments">
+                  <i className="tableActions__comments-icon fas fa-comments"></i>
+                  <span className="tableActions__comments--count">37</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+{/* ----------------------------------SIXTH ROW---------------------------- */}
+          <tr className="recentActivity__table--row active">
+            <td>
+              <div className="table__trader">
+                <ReactLogoCK2 />
+                <div className="table__trader--title">
+                  <span className="trader__title--name">CKadera</span>
+                  <span className="trader__title--email">@ckadera</span>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div className="table__trade">
+                <div className="table__logo">
+                  <ReactLogoTSLA />
+                </div>
+                <div className="table__trade--details">
+                  <span className="trade__details--status">Sold TSLA call 08/18/21</span>
+                  <span className="trade__details--price">@$210.22</span>
+                </div>
+              </div>
+            </td>
+
+            <td>
+              <div className="table__strategy">
+                <span className="table__stategy--type white">Long</span>
+                <span className="table__stategy--type white">Diagonal put</span>
+                <span className="table__stategy--type num">+7</span>
+              </div>
+            </td>
+
+            <td>
+              <div className="table__status">
+                <span className="table__status--open">Opened Yesterday</span>
+                <span className="table__status--close">Closed 8:13 AM</span>
+              </div>
+            </td>
+
+
+            <td>
+              <div className="table__profit lost">
                 <span className="table__profit--grade">Lost 4%</span>
               </div>
             </td>
@@ -410,7 +422,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">
@@ -438,7 +450,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoAMZN />
+                <div className="table__logo">
+                  <ReactLogoAMZN />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">AMZN iron condor 08/18/21</span>
                   <span className="trade__details--price">Debit $35</span>
@@ -448,7 +462,7 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Swing</span>
+                <span className="table__stategy--type">Swing</span>
               </div>
             </td>
 
@@ -460,7 +474,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit up">
                 <span className="table__profit--grade">Up 4%</span>
               </div>
             </td>
@@ -468,7 +482,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">
@@ -483,7 +497,7 @@ class RecentActivity extends React.Component {
             </td>
           </tr>
 {/* ------------------------------------EIGHTH ROW-------------------------- */}
-          <tr>
+          <tr className="recentActivity__table--row active">
             <td>
               <div className="table__trader">
                 <ReactLogoKevin />
@@ -496,7 +510,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoSP />
+                <div className="table__logo">
+                  <ReactLogoSP />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Sold SPY put 08/18/21</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -506,9 +522,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
-                <span className="table__stategy--type2">Momentum</span>
-                <span className="table__stategy--type3">+2</span>
+                <span className="table__stategy--type white">Day</span>
+                <span className="table__stategy--type white">Momentum</span>
+                <span className="table__stategy--type num">+2</span>
               </div>
             </td>
 
@@ -521,7 +537,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit made">
                 <span className="table__profit--grade">Made 16%</span>
               </div>
             </td>
@@ -529,12 +545,12 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
-                  <span className="tableActions__like--count">37</span>
+                  <i className="tableActions__like--icon active fas fa-thumbs-up"></i>
+                  <span className="tableActions__like--count active">37</span>
                 </div>
                 <div className="tableActions__bookmark">
-                  <i className="tableActions__bookamark-icon fas fa-bookmark"></i>
-                  <span className="tableActions__bookmark--count">7</span>
+                  <i className="tableActions__bookamark-icon active fas fa-bookmark"></i>
+                  <span className="tableActions__bookmark--count active">7</span>
                 </div>
                 <div className="tableActions__comments">
                   <i className="tableActions__comments-icon fas fa-comments"></i>
@@ -557,7 +573,9 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__trade">
-                <ReactLogoTSLA />
+                <div className="table__log">
+                  <ReactLogoTSLA />
+                </div>
                 <div className="table__trade--details">
                   <span className="trade__details--status">Sold TSLA call 08/18/21</span>
                   <span className="trade__details--price">@$210.22</span>
@@ -567,8 +585,8 @@ class RecentActivity extends React.Component {
 
             <td>
               <div className="table__strategy">
-                <span className="table__stategy--type1">Day</span>
-                <span className="table__stategy--type2">Penny stocks</span>
+                <span className="table__stategy--type">Day</span>
+                <span className="table__stategy--type">Penny stocks</span>
               </div>
             </td>
 
@@ -580,7 +598,7 @@ class RecentActivity extends React.Component {
 
 
             <td>
-              <div className="table__profit">
+              <div className="table__profit up">
                 <span className="table__profit--grade">Up 4%</span>
               </div>
             </td>
@@ -588,7 +606,7 @@ class RecentActivity extends React.Component {
             <td>
               <div className="table__actions">
                 <div className="tableActions__like">
-                  <i className="tableActions__like--icon far fa-thumbs-up"></i>
+                  <i className="tableActions__like--icon fas fa-thumbs-up"></i>
                   <span className="tableActions__like--count">24</span>
                 </div>
                 <div className="tableActions__bookmark">

@@ -143,7 +143,205 @@ table {
   left: 3%;
 }
 
-.recentActivity__table--row {
-
+td {
+  border: 1px solid #f5f8fb;
+  border-radius: 8px;
+  height: 40px;
 }
 
+.trader__title--name {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #435274;
+}
+
+.trader__title--email {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #A2B1C3;
+}
+
+.trade__details--status {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #435274;
+}
+
+.trade__details--price {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #A2B1C3;
+}
+
+.table__trader {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.table__trader--title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  align-items: flex-start;
+}
+
+.table__trade {
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 10%;
+}
+
+.table__logo {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f8fb;
+}
+
+.table__trade--details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+  align-items: flex-start;
+}
+
+.table__strategy {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  align-items: center;
+}
+
+.table__strategy span {
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 2% 2%;
+  background: #f5f8fb;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #A2b1c3;
+  border :1px #a2b1c3;
+}
+
+.table__stategy--type.white {
+  background: #fff;
+  border: 1px #a2b1c3;
+}
+
+.table__stategy--type.num {
+  border: 1px dotted;
+}
+
+.table__status {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #a2b1c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.table__status--close {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #435274;
+}
+
+.table__profit {
+  height: 30px;
+  width: 90px;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.table__profit.up {
+  background: #E6F9F5;
+  color: #40c8b7;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+
+.table__profit.made {
+  background: #55cebf;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+
+.table__profit.lost {
+  background: #FD5B5D;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+
+.table__profit.down {
+  background: rgba(253, 91, 93, 0.1);
+  color: #FD5B5D;
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+
+.table__actions {
+  display: flex;
+  justify-content: space-evenly;
+  color: #d2dae2;
+  font-size: 16px;
+}
+
+
+.tableActions__like--icon.active {color: #00A5EA;}
+.tableActions__bookamark-icon.active {color: #00A5EA;}
+.tableActions__comments-icon.acitve {color: #00A5EA;}
+
+.tableActions__like--count.active {color: #00A5EA;}
+.tableActions__bookmark--count.active {color: #00A5EA;}
+.tableActions__comments--count.active {color: #00A5EA;}
+
+.tableActions__like--count  {margin-left: 4px;}
+.tableActions__bookmark--count {margin-left: 4px;}
+.tableActions__comments--count {margin-left: 4px;}
+
+.recentActivity__table--row.active {
+  background: #F5F8FB
+}
